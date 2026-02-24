@@ -7,7 +7,7 @@ import numpy # trabalhar com matrizes
 # leitura da imagem com a funcao imread()
 imagem = cv2.imread('gato-preto-deitado.jpg')
 # a img eh armazenada na variavel imagem
-# a imagem eh uma magriz de 3 dimensoes -> 3 canais RGB (red, green, blue)
+# a imagem eh uma magriz de 3 dimensoes -> 3 canais RGB (red, green, blue), mas a ordem no python é bgr
 # cada celula da matriz eh um pixel com valor de 0 a 255
 # cada celula contem um inteiro de 8 bits sem sinal (uint8)
 # cada pixel eh formado por uma tupla de 3 inteiros de 8 bits
